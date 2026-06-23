@@ -7,7 +7,6 @@ export default defineConfig(() => {
 return {
 base: '/KSV/',
 
-```
 plugins: [react(), tailwindcss()],
 
 resolve: {
@@ -24,7 +23,6 @@ server: {
   // Disable file watching when DISABLE_HMR is true to save CPU during agent edits.
   watch: process.env.DISABLE_HMR === 'true' ? null : {},
 },
-```
 
 };
 });
