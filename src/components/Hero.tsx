@@ -15,8 +15,8 @@ import {
   Award,
   Zap
 } from 'lucide-react';
-const imgSquare = new URL('../assets/images/svetlana_portrait_square_1781779525566.jpg', import.meta.url).href;
-const imgLandscape = new URL('../assets/images/svetlana_workspace_landscape_1781779551698.jpg', import.meta.url).href;
+const imgSquare = new URL('../assets/images/svetlana_portrait_square_1781785524985.jpg', import.meta.url).href;
+const imgLandscape = new URL('../assets/images/svetlana_workspace_landscape_1781785549833.jpg', import.meta.url).href;
 
 interface HeroProps {
   onStartDiagnostic: () => void;
